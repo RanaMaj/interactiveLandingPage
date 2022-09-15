@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 100vh;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3rem;
+  line-height: 2.5;
+  color: #fff;
+}
+.content {
+  width: 50%;
+}
+.greeting {
+  text-transform: uppercase;
+}
+.subsc-form {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243 238 238 / 93%);
+  border-radius: 5px;
+  padding: 20px;
+  flex-direction: column;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+input[type="email"] {
+  padding: 15px 8px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 5px;
+  color: #000;
+  width: 70%;
+  border: 1px solid #fff;
+}
+input[type="email"]:focus {
+  box-shadow: none;
+  border: 1px solid #b3b3b3;
+}
+input:focus-visible {
+  outline: none;
+}
+.btn {
+  padding: 15px 8px;
+  border-radius: 8px;
+  border: none;
+  color: #000;
+  letter-spacing: 1px;
+  background-color: #000;
+  color: #fff;
+}
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.submit-msg {
+  font-size: 12px;
+  margin-top: 15px;
+  color: red;
+}

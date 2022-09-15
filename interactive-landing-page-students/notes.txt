@@ -1,0 +1,8 @@
+The data in the screen changes dynamically regarding the time of the day.
+If the user opens the page in the morning, afternoon, or in the evening, the following data should be changed dynamically:
+- current time will be dispalyed (hours, minutes, and seconds)
+- detect the time (morning, afternoon, evening) based on the hour.
+- detect the am and pm
+- change the background of the body, based on the time
+- feel free to change the background images, colors, and the design of the webpage.
+- add the form validation as described in the video.
